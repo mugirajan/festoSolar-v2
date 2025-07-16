@@ -34,7 +34,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
+           "scripts": [
+              "src/assets/js/jquery-3.5.1.min.js",
+              "src/assets/js/plugins.js",
+              "src/assets/js/main.js",
+              "src/assets/js/google-map.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -98,7 +103,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+           "scripts": [
+              "src/assets/js/jquery-3.5.1.min.js",
+              "src/assets/js/plugins.js",
+              "src/assets/js/main.js",
+              "src/assets/js/google-map.js"
+            ]
           }
         }
       }
